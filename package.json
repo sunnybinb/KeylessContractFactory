@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^5.1.0",
+    "solady": "^0.0.268"
+  }
+}
