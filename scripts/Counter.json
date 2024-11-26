@@ -1,0 +1,110 @@
+{
+    "abi": [
+        {
+            "type": "function",
+            "name": "count",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "stateMutability": "view"
+        },
+        {
+            "type": "function",
+            "name": "increment",
+            "inputs": [],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    ],
+    "bytecode": {
+        "object": "0x6080604052348015600f57600080fd5b5060c980601d6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b60576059565b005b600080549080606683606d565b9190505550565b600060018201608c57634e487b7160e01b600052601160045260246000fd5b506001019056fea264697066735822122066f4b64e40e770a3dcf578d80f09f491ed7a141f953f57903d22cd5786a509ef64736f6c634300081a0033",
+        "sourceMap": "59:106:11:-:0;;;;;;;;;;;;;;;;;;;",
+        "linkReferences": {}
+    },
+    "deployedBytecode": {
+        "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806306661abd146037578063d09de08a146051575b600080fd5b603f60005481565b60405190815260200160405180910390f35b60576059565b005b600080549080606683606d565b9190505550565b600060018201608c57634e487b7160e01b600052601160045260246000fd5b506001019056fea264697066735822122066f4b64e40e770a3dcf578d80f09f491ed7a141f953f57903d22cd5786a509ef64736f6c634300081a0033",
+        "sourceMap": "59:106:11:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;83:20;;;;;;;;;160:25:13;;;148:2;133:18;83:20:11;;;;;;;110:52;;;:::i;:::-;;;148:5;:7;;;:5;:7;;;:::i;:::-;;;;;;110:52::o;196:232:13:-;235:3;256:17;;;253:140;;315:10;310:3;306:20;303:1;296:31;350:4;347:1;340:15;378:4;375:1;368:15;253:140;-1:-1:-1;420:1:13;409:13;;196:232::o",
+        "linkReferences": {}
+    },
+    "methodIdentifiers": {
+        "count()": "06661abd",
+        "increment()": "d09de08a"
+    },
+    "rawMetadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Counter.sol\":\"Counter\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/\",\":@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/\",\":forge-std/=lib/forge-std/src/\",\":solady/=node_modules/solady/\"]},\"sources\":{\"src/Counter.sol\":{\"keccak256\":\"0xdc9a6da148bff1768df99043a180649093385e38b9c259e68f7e564d6407c4c9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c0736b758be4b7b2d1ccc55263f734fa0ff8d32806f3d593ab6f4cfbe6eef928\",\"dweb:/ipfs/QmdsXHtr8DibhpupKXgaEwb1N79wyMJRMi38FmQQYXsCDb\"]}},\"version\":1}",
+    "metadata": {
+        "compiler": {
+            "version": "0.8.26+commit.8a97fa7a"
+        },
+        "language": "Solidity",
+        "output": {
+            "abi": [
+                {
+                    "inputs": [],
+                    "stateMutability": "view",
+                    "type": "function",
+                    "name": "count",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ]
+                },
+                {
+                    "inputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "increment"
+                }
+            ],
+            "devdoc": {
+                "kind": "dev",
+                "methods": {},
+                "version": 1
+            },
+            "userdoc": {
+                "kind": "user",
+                "methods": {},
+                "version": 1
+            }
+        },
+        "settings": {
+            "remappings": [
+                "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+                "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+                "forge-std/=lib/forge-std/src/",
+                "solady/=node_modules/solady/"
+            ],
+            "optimizer": {
+                "enabled": true,
+                "runs": 200
+            },
+            "metadata": {
+                "bytecodeHash": "ipfs"
+            },
+            "compilationTarget": {
+                "src/Counter.sol": "Counter"
+            },
+            "evmVersion": "paris",
+            "libraries": {}
+        },
+        "sources": {
+            "src/Counter.sol": {
+                "keccak256": "0xdc9a6da148bff1768df99043a180649093385e38b9c259e68f7e564d6407c4c9",
+                "urls": [
+                    "bzz-raw://c0736b758be4b7b2d1ccc55263f734fa0ff8d32806f3d593ab6f4cfbe6eef928",
+                    "dweb:/ipfs/QmdsXHtr8DibhpupKXgaEwb1N79wyMJRMi38FmQQYXsCDb"
+                ],
+                "license": "MIT"
+            }
+        },
+        "version": 1
+    },
+    "id": 11
+}

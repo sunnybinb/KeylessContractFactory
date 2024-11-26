@@ -13,8 +13,17 @@ Foundry consists of:
 
 https://book.getfoundry.sh/
 
-## Usage
+## Introduction 
+- Provide a contract factory to deploy contract 
+- Create2 and Create3 
+- Forge test for factory
+- Deploy script by hardhat 
 
+## Usage
+### Install
+```shell
+$ yarn
+```
 ### Build
 
 ```shell
@@ -48,8 +57,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+$ hh run scripts/deployByFactory.js --network arb_sepolia --network <your_rpc_url>
 
 ### Cast
 
